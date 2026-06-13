@@ -175,7 +175,7 @@ A **universal AI-powered data dashboard** built with Python and Streamlit. Uploa
 
 ```
 AI-Universal-Data-Dashboard/
-├── 📄 app.py               → Main Streamlit app (all logic)
+├── 📄 universal_dashboard.py   → Main Streamlit app (all logic)
 ├── 📄 requirements.txt     → Python dependencies
 └── 📄 README.md            → This file
 ```
