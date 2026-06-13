@@ -1,10 +1,10 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,FF4B4B,FF6B6B,FF8C8C&height=200&section=header&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=36&text=AI%20Universal%20Data%20Dashboard&desc=Upload%20Any%20File%20·%20Auto%20Charts%20·%20Ask%20AI%20·%20Export%20Instantly&descAlignY=58&descSize=15" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,FF4B4B,FF8C00,FFD700&height=200&section=header&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=36" width="100%"/>
 </div>
 
 <div align="center">
 
-```
+<pre>
  █████╗ ██╗    ██████╗  █████╗ ████████╗ █████╗ 
 ██╔══██╗██║    ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗
 ███████║██║    ██║  ██║███████║   ██║   ███████║
@@ -18,16 +18,12 @@
 ██║  ██║██╔══██║╚════██║██╔══██║██╔══██╗██║   ██║██╔══██║██╔══██╗██║  ██║
 ██████╔╝██║  ██║███████║██║  ██║██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
 ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
-```
+</pre>
 
-</div>
-
-<div align="center">
-
-### 🚀 Live App → [ai-universal-data-dashboard.streamlit.app](https://ai-universal-data-dashboard.streamlit.app/)
+### 🚀 Live App → **[ai-universal-data-dashboard.streamlit.app](https://ai-universal-data-dashboard.streamlit.app/)**
 
 [![Live App](https://img.shields.io/badge/▶_Open_Live_App-ai--universal--data--dashboard.streamlit.app-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai-universal-data-dashboard.streamlit.app/)
-[![Groq AI](https://img.shields.io/badge/🤖_Groq_AI-llama--3.3--70b-FF6B6B?style=for-the-badge)](https://console.groq.com)
+[![Groq AI](https://img.shields.io/badge/🤖_Groq_AI-llama--3.3--70b-FF8C00?style=for-the-badge)](https://console.groq.com)
 [![GitHub](https://img.shields.io/badge/GitHub-akshayy718-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akshayy718)
 
 </div>
@@ -36,10 +32,10 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-FF4B4B?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=flat-square&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive-3b82f6?style=flat-square&logo=plotly&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-llama--3.3--70b-FF6B6B?style=flat-square)
-![Hosted](https://img.shields.io/badge/Hosted-Streamlit_Cloud-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-FFD700?style=flat-square&logo=pandas&logoColor=black)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-FF8C00?style=flat-square&logo=plotly&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-llama--3.3--70b-FF4B4B?style=flat-square)
+![Hosted](https://img.shields.io/badge/Hosted-Streamlit_Cloud-FFD700?style=flat-square&logo=streamlit&logoColor=black)
 
 </div>
 
@@ -239,6 +235,6 @@ Open → `http://localhost:8501`
 
 *Built with ❤️ using Python · Streamlit · Plotly · Groq AI*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,FF8C8C,FF6B6B,FF4B4B&height=130&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,FFD700,FF8C00,FF4B4B&height=130&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
