@@ -1,8 +1,22 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,6366f1,8b5cf6,a855f7&height=200&section=header&text=AI+Universal+Data+Dashboard&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Upload+Any+File+·+Auto+Charts+·+Ask+AI+·+Export+Instantly&descAlignY=58&descSize=15" width="100%"/>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,6366f1,8b5cf6,a855f7&height=180&section=header&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=36" width="100%"/>
 
-<div align="center">
+```
+   ___  _____   _   _ _   _ _____   _____  _____ ___  _
+  / _ \|_   _| | | | | \ | |_   _| |_   _|/ ____/ _ \| |
+ / /_\ \ | |   | | | |  \| | | |     | | | |   | | | | |
+ |  _  | | |   | | | | .   | | |     | | | |   | | | | |
+ | | | |_| |_  | |_| | |\  | | |    _| |_| |___\ \_/ / |___
+ \_| |_/\___/   \___/\_| \_/ \_/   |_____|\_____\___/\_____|
+
+  ____    _ _____ _        ____    _    ____  _   _ ____   ___    _    ____  ____
+ |  _ \  / |_   _/ \      |  _ \  / \  / ___|| | | | __ ) / _ \  / \  |  _ \|  _ \
+ | | | | | | | |/ _ \     | | | |/ _ \ \___ \| |_| |  _ \| | | |/ _ \ | |_) | | | |
+ | |_| | | | | / ___ \    | |_| / ___ \ ___) |  _  | |_) | |_| / ___ \|  _ <| |_| |
+ |____/  |_| |_/_/   \_\  |____/_/   \_\____/|_| |_|____/ \___/_/   \_\_| \_\____/
+```
+
+### Upload Any File · Auto Charts · Ask AI · Export Instantly
 
 [![Live App](https://img.shields.io/badge/🚀_Live_App-Streamlit_Cloud-6366f1?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai-universal-data-dashboard.streamlit.app/)
 [![Groq AI](https://img.shields.io/badge/🤖_Groq_AI-llama--3.3--70b-a855f7?style=for-the-badge)](https://console.groq.com)
@@ -81,7 +95,7 @@ A **universal AI-powered data dashboard** built with Python and Streamlit. Uploa
   ┌──────────────┐ ┌──────────────┐  ┌──────────────────┐
   │  File Loader │ │ Auto Detect  │  │   Groq AI API    │
   │  CSV / Excel │ │   Columns    │  │  llama-3.3-70b   │
-  │  PDF / DOCX  │ │   Charts     │  │  (free · fast)   │
+  │  PDF / DOCX  │ │   & Charts   │  │  (free · fast)   │
   └──────────────┘ └──────────────┘  └──────────────────┘
 ```
 
@@ -90,8 +104,7 @@ A **universal AI-powered data dashboard** built with Python and Streamlit. Uploa
 ## 🤖 AI Pipeline
 
 ```
-  User Uploads File
-  (CSV / Excel / PDF / DOCX)
+  User Uploads File (CSV / Excel / PDF / DOCX)
          │
          ▼
   ┌─────────────────┐
@@ -103,37 +116,31 @@ A **universal AI-powered data dashboard** built with Python and Streamlit. Uploa
   └────────┬────────┘
            │
            ▼
-  ┌─────────────────────────────────┐
-  │     Auto Column Detection        │
-  │  detect_columns()               │
-  │                                 │
-  │  Finds:                         │
-  │  ├── Task / Description column  │
-  │  ├── Status column              │
-  │  ├── Due Date column            │
-  │  └── Category column            │
-  └────────┬────────────────────────┘
+  ┌──────────────────────────────────┐
+  │     Auto Column Detection         │
+  │  ├── Task / Description column   │
+  │  ├── Status column               │
+  │  ├── Due Date column             │
+  │  └── Category column             │
+  └────────┬─────────────────────────┘
            │
            ▼
-  ┌─────────────────────────────────┐
-  │     build_summary()             │
-  │  Token-efficient data context   │
-  │  ├── Status counts              │
-  │  ├── Category breakdown         │
-  │  ├── Category × Status matrix   │
-  │  └── Overdue task names         │
-  └────────┬────────────────────────┘
+  ┌──────────────────────────────────┐
+  │     build_summary()              │
+  │  ├── Status counts               │
+  │  ├── Category breakdown          │
+  │  ├── Category x Status matrix    │
+  │  └── Overdue task names          │
+  └────────┬─────────────────────────┘
            │
            ▼
-  ┌─────────────────────────────────┐
-  │       Groq API                  │
-  │   Model: llama-3.3-70b          │
-  │                                 │
-  │   Modes:                        │
-  │   ├── 📊 5-point summary        │
-  │   ├── 🚨 Top 3 priorities       │
-  │   └── 💬 Free-text Q&A          │
-  └────────┬────────────────────────┘
+  ┌──────────────────────────────────┐
+  │       Groq API                   │
+  │   Model: llama-3.3-70b           │
+  │   ├── 📊 5-point summary         │
+  │   ├── 🚨 Top 3 priorities        │
+  │   └── 💬 Free-text Q&A           │
+  └────────┬─────────────────────────┘
            │
            ▼
   Answer displayed in the app
