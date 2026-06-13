@@ -199,7 +199,7 @@ cd AI-Universal-Data-Dashboard
 pip install -r requirements.txt
 
 # Run locally
-streamlit run app.py
+streamlit run universal_dashboard.py
 ```
 
 Open → `http://localhost:8501`
