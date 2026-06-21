@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────
+#  Premium Theme for Universal Data Dashboard
+#  Place this file at:  .streamlit/config.toml
+# ─────────────────────────────────────────────
+
+[theme]
+# Base theme — "light" gives a clean, premium feel
+base = "light"
+
+# Primary accent color (buttons, sliders, highlights)
+# A modern indigo/purple for a premium look
+primaryColor = "#6366f1"
+
+# Main background (app body) — soft off-white, easier on eyes than pure white
+backgroundColor = "#fafafa"
+
+# Sidebar & cards background — crisp white for contrast
+secondaryBackgroundColor = "#ffffff"
+
+# Body text color — deep slate, softer than pure black
+textColor = "#1e293b"
+
+# Font — "sans serif" is clean and modern
+font = "sans serif"
+
+[server]
+# Lets larger files upload (200 MB) without errors
+maxUploadSize = 200
